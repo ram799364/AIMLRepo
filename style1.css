@@ -1,0 +1,12 @@
+body {
+    width: 800px;
+}
+
+nav, section, header, footer {
+    margin: 10px;
+}
+
+#sidebar, #posts {
+    float: left;
+    width: 50%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form id="create_account" action="/signup" method="post">
+        <fieldset id="signup">
+            <legend>Create New Account</legend>
+          <li>
+            <label for="first_name">First Name</label>
+            <input id="first_name" type="text" autofocus name="first_name" placeholder="firstname">
+          </li>
+          <li>
+            <label for="last_name">Last Name</label>
+            <input id="last_name" type="text" name="last_name" placeholder="lastname">
+          </li>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="user@example.com">
+            
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" value="" autocomplete="off" placeholder="8-10 characters">
+            
+            <label for="password_confirmation">Password Confirmation</label>
+            <input id="password_confirmation" type="password" name="password_confirmation" value="" autocomplete="off" placeholder="Type your password again">
+            
+            <input type="submit" value="Sign Up">
+        </fieldset>
+    </form>
+</body>
+</html>
